@@ -106,17 +106,22 @@ streamlit run streamlit_dashboard_bnt113_real_data.py
 
 **Windows:**
 ```bash
+# From root folder:
+scripts\START_DASHBOARD.bat
+
+# Or navigate to scripts:
+cd scripts
 START_DASHBOARD.bat
 ```
 
 **PowerShell:**
 ```bash
-.\start_dashboard.ps1
+.\scripts\start_dashboard.ps1
 ```
 
 **Network Access:**
 ```bash
-START_DASHBOARD_NETWORK.bat
+scripts\START_DASHBOARD_NETWORK.bat
 ```
 
 Dashboard will open at `http://localhost:8501`
@@ -126,19 +131,32 @@ Dashboard will open at `http://localhost:8501`
 ## 📁 Project Structure
 
 ```
-clinical-trial-dashboard-demo/
-├── streamlit_dashboard_bnt113_real_data.py  # Main dashboard application
-├── data/                                     # Demo data files
+clinical-trial-analytics-dashboard/
+├── streamlit_dashboard_bnt113_real_data.py  # Main dashboard application (7K+ lines)
+├── README.md                                 # Project overview (you are here)
+├── ROI_CASE_STUDY.md                        # Detailed financial impact analysis
+├── LICENSE                                   # MIT License with disclaimers
+├── requirements.txt                          # Python dependencies
+├── data/                                     # Demo data files (synthetic)
 │   ├── BNT113-01 Master Tracker v1 15-Apr-2025.xlsx
 │   ├── BNT113-01 Screening Logs1.xlsx
 │   └── CVLP BNT113 reporting.xlsx
-├── requirements.txt                          # Python dependencies
-├── README.md                                 # This file
-├── ROI_CASE_STUDY.md                        # Detailed ROI analysis
-├── SECURITY_AUDIT_GITHUB.md                 # Security review
-├── COMPLETE_SETUP_GUIDE.md                  # Comprehensive setup docs
-├── QUICK_REFERENCE.txt                      # Quick command reference
-└── START_DASHBOARD.bat                      # Launch script (Windows)
+├── docs/                                     # Additional documentation
+│   ├── README.md                            # Documentation index
+│   ├── COMPLETE_SETUP_GUIDE.md              # Comprehensive setup guide
+│   ├── SECURITY_AUDIT_GITHUB.md             # Security review
+│   ├── GITHUB_READY_CHECKLIST.md            # Publication guide
+│   ├── CHANGELOG.txt                        # Version history
+│   └── QUICK_REFERENCE.txt                  # Quick command reference
+├── scripts/                                  # Launcher scripts
+│   ├── README.md                            # Scripts documentation
+│   ├── START_DASHBOARD.bat                  # Windows launcher
+│   ├── START_DASHBOARD_NETWORK.bat          # Network-enabled launcher
+│   ├── start_dashboard.ps1                  # PowerShell launcher
+│   ├── SETUP_FIRST_TIME.bat                 # First-time setup
+│   └── STOP_DASHBOARD.bat                   # Stop dashboard
+└── assets/                                   # Images and resources
+    └── SCTU Logo (mediabin resized).jpg
 ```
 
 ---
@@ -276,11 +294,16 @@ This project demonstrates expertise in:
 
 ## 📖 Documentation
 
-- **[ROI Case Study](ROI_CASE_STUDY.md)**: Detailed financial impact analysis
-- **[Security Audit](SECURITY_AUDIT_GITHUB.md)**: Pre-publication security review
-- **[Setup Guide](COMPLETE_SETUP_GUIDE.md)**: Comprehensive installation & configuration
-- **[Quick Reference](QUICK_REFERENCE.txt)**: Common commands and troubleshooting
-- **[Changelog](CHANGELOG.txt)**: Version history and updates
+### Core Documentation
+- **[ROI Case Study](ROI_CASE_STUDY.md)**: Detailed financial impact analysis (£265K benefit, 2,124% ROI)
+- **[Complete Setup Guide](docs/COMPLETE_SETUP_GUIDE.md)**: Comprehensive installation & configuration
+- **[Quick Reference](docs/QUICK_REFERENCE.txt)**: Common commands and troubleshooting
+
+### Additional Resources
+- **[Security Audit](docs/SECURITY_AUDIT_GITHUB.md)**: Pre-publication security review
+- **[GitHub Checklist](docs/GITHUB_READY_CHECKLIST.md)**: Publication guide with LinkedIn template
+- **[Changelog](docs/CHANGELOG.txt)**: Version history and updates
+- **[Scripts Guide](scripts/README.md)**: Launcher scripts documentation
 
 ---
 
