@@ -1,0 +1,438 @@
+================================================================================
+                   BNT113 DASHBOARD - QUICK REFERENCE
+================================================================================
+
+Version: 2.0.2 | Updated: October 2025 | For: SRV04750.soton.ac.uk
+
+================================================================================
+                        🚀 QUICK START COMMANDS
+================================================================================
+
+FIRST TIME SETUP:
+   1. SETUP_FIRST_TIME.bat
+   2. COPY_DATA_FROM_ONEDRIVE.bat
+   3. START_DASHBOARD.bat
+
+EVERYDAY USE:
+   START_DASHBOARD.bat
+
+STOP DASHBOARD:
+   STOP_DASHBOARD.bat
+   OR press Ctrl+C in terminal
+
+================================================================================
+                           📁 FILE LOCATIONS
+================================================================================
+
+Dashboard:      F:\projects\BNT113_Dashboard\
+Data Files:     F:\projects\BNT113_Dashboard\data\
+OneDrive:       F:\projects\OneDrive_*\bnt122 progress report dashboard\
+Assets:         F:\projects\BNT113_Dashboard\assets\
+
+================================================================================
+                             🌐 ACCESS URLS
+================================================================================
+
+Local:          http://localhost:8501
+Network:        http://SRV04750.soton.ac.uk:8501
+
+================================================================================
+                          🔐 DEFAULT CREDENTIALS
+================================================================================
+
+Username:       admin
+Password:       sctu2024
+
+⚠️ CHANGE IMMEDIATELY AFTER FIRST LOGIN!
+
+================================================================================
+                        📊 REQUIRED DATA FILES
+================================================================================
+
+✅ Required:
+   BNT113-01 Master Tracker v1 15-Apr-2025.xlsx
+
+⚪ Optional (enhances accuracy):
+   BNT113-01 Screening Logs1.xlsx
+   CVLP BNT113 reporting.xlsx
+
+================================================================================
+                      💻 SYSTEM REQUIREMENTS
+================================================================================
+
+Minimum:
+   - Windows Server 2012 R2 or Windows 10+
+   - Python 3.8+
+   - 2 GB RAM
+   - 500 MB storage
+
+Recommended:
+   - Windows Server 2016+
+   - Python 3.10+
+   - 4 GB RAM
+   - 1 GB storage
+
+================================================================================
+                        🐛 COMMON ISSUES & FIXES
+================================================================================
+
+PROBLEM: Dashboard won't start
+FIX: Run SETUP_FIRST_TIME.bat
+
+PROBLEM: 'streamlit' not recognized
+FIX: Already fixed! Just run START_DASHBOARD.bat
+
+PROBLEM: Port already in use
+FIX: Run STOP_DASHBOARD.bat first
+
+PROBLEM: Python not found
+FIX: Install Python from python.org
+     ✅ Check "Add Python to PATH" during install
+
+PROBLEM: Excel file won't load
+FIX: Close Excel file, then upload through dashboard
+
+PROBLEM: Data shows as 0
+FIX: Check Excel file columns match expected format
+     Upload Screening Logs for complete data
+
+================================================================================
+                       📋 USEFUL PYTHON COMMANDS
+================================================================================
+
+Check Python version:
+   python --version
+
+Check installed packages:
+   pip list
+
+Install dependencies:
+   pip install -r requirements.txt
+
+Reinstall dependencies:
+   pip install -r requirements.txt --force-reinstall
+
+Upgrade dependencies:
+   pip install -r requirements.txt --upgrade
+
+================================================================================
+                     ⌨️ KEYBOARD SHORTCUTS
+================================================================================
+
+IN BROWSER:
+   F5                  Refresh dashboard
+   Ctrl+F              Find in page
+   Ctrl+P              Print/Export to PDF
+   Ctrl+R              Reload page
+
+IN TERMINAL:
+   Ctrl+C              Stop dashboard
+   
+================================================================================
+                       📥 EXPORT INSTRUCTIONS
+================================================================================
+
+1. Scroll to bottom of dashboard
+2. Find "📥 Export Dashboard" section
+3. Select content to include
+4. Click "📥 Export as HTML"
+5. Download button appears
+6. Click to download file
+
+TO CREATE PDF:
+   1. Export as HTML
+   2. Open HTML in browser
+   3. Press Ctrl+P
+   4. Select "Save as PDF"
+
+================================================================================
+                         🔄 UPDATE PROCEDURES
+================================================================================
+
+UPDATE DATA:
+   1. Upload new files through dashboard sidebar
+   OR
+   2. Replace files in data\ folder and restart
+
+UPDATE DASHBOARD:
+   1. Get new streamlit_dashboard_bnt113_real_data.py
+   2. Stop dashboard
+   3. Replace file
+   4. pip install -r requirements.txt --upgrade
+   5. Restart dashboard
+
+================================================================================
+                      🔒 SECURITY QUICK TIPS
+================================================================================
+
+✅ Change default password immediately
+✅ Use Privacy Mode for presentations
+✅ Only enable network access on secure networks
+✅ Regular backups of data files
+✅ Keep VM and Python updated
+
+================================================================================
+                        📞 SUPPORT CONTACTS
+================================================================================
+
+SCTU Data Management Team
+University of Southampton
+
+For Issues: Include error message, Python version, steps to reproduce
+
+================================================================================
+                       📚 DOCUMENTATION FILES
+================================================================================
+
+THIS FILE:              Quick commands & reference
+COMPLETE_SETUP_GUIDE:   Full setup & usage guide
+CHANGELOG.txt:          Recent fixes & version history
+
+================================================================================
+                     🎯 MOST COMMON WORKFLOWS
+================================================================================
+
+START DASHBOARD:
+   Double-click: START_DASHBOARD.bat
+   
+UPLOAD NEW DATA:
+   1. Open dashboard
+   2. Sidebar → Upload files
+   3. Select Excel file
+   4. Data auto-updates
+
+EXPORT REPORT:
+   1. Scroll to bottom
+   2. Select sections
+   3. Export as HTML
+   4. Download file
+
+ENABLE PRIVACY MODE:
+   1. Sidebar → Privacy toggle
+   2. Select "Privacy Mode"
+   3. Data is masked
+
+CHANGE PASSWORD:
+   1. Login as admin
+   2. Settings → Change password
+   3. Enter new password
+   4. Save
+
+================================================================================
+                        🗂️ FOLDER STRUCTURE
+================================================================================
+
+BNT113_Dashboard/
+├── streamlit_dashboard_bnt113_real_data.py
+├── requirements.txt
+├── START_DASHBOARD.bat
+├── STOP_DASHBOARD.bat
+├── data/
+│   ├── Master Tracker.xlsx
+│   ├── Screening Logs.xlsx
+│   └── CVLP reporting.xlsx
+└── assets/
+    └── SCTU Logo.jpg
+
+================================================================================
+                      ✅ STARTUP CHECKLIST
+================================================================================
+
+Before starting dashboard, verify:
+   [ ] Python installed (python --version)
+   [ ] Dependencies installed (pip list)
+   [ ] Data files in data\ folder
+   [ ] Port 8501 not in use
+   [ ] VM resources available
+
+================================================================================
+                     💡 TIPS & BEST PRACTICES
+================================================================================
+
+1. Keep Command Prompt window open while using dashboard
+2. Use F5 to refresh if data doesn't update
+3. Enable Privacy Mode before screenshots
+4. Export reports regularly for records
+5. Backup data files weekly
+6. Close Excel files before uploading
+7. Use latest browser for best performance
+8. Monitor VM resources during use
+
+================================================================================
+                         📈 FEATURE QUICK GUIDE
+================================================================================
+
+TRIAL METRICS:
+   View: Monthly Trial Metrics Table
+   Shows: Recruitment, consents, referrals by month
+   
+SITE PERFORMANCE:
+   View: Site Performance Metrics Table
+   Shows: Days to referral, average rates, trends
+   Colors: Green=Good, Yellow=Attention, Red=Action
+
+CHARTS:
+   View: Throughout dashboard
+   Types: Monthly trends, site comparisons, heatmaps
+
+EXPORT:
+   Location: Bottom of dashboard
+   Formats: HTML (direct), PDF (via browser print)
+
+PRIVACY:
+   Toggle: Sidebar
+   Effect: Masks sensitive data for presentations
+
+================================================================================
+                      🔧 ADVANCED CONFIGURATION
+================================================================================
+
+CHANGE PORT:
+   Edit: START_DASHBOARD.bat
+   Line: --server.port 8501
+   Change to: --server.port 8502 (or any available port)
+
+ENABLE NETWORK ACCESS:
+   Use: START_DASHBOARD_NETWORK.bat
+   URL: http://SRV04750.soton.ac.uk:8501
+
+DATA FOLDER LOCATION:
+   Default: .\data\
+   Custom: Edit file upload paths in dashboard
+
+MAX UPLOAD SIZE:
+   Default: 200 MB
+   Change: Requires Streamlit config modification
+
+================================================================================
+                         📊 DATA FILE FORMAT
+================================================================================
+
+MASTER TRACKER:
+   Format: .xlsx
+   Required columns: Multiple (auto-detected)
+   Date format: dd/mm/yyyy preferred
+
+SCREENING LOGS:
+   Format: .xlsx with multiple sheets
+   Sheet names: Site/city names
+   Required columns: Date of Screening, Consented to CVLP
+
+CVLP REPORTING:
+   Format: .xlsx
+   Optional: Enhances some metrics
+
+================================================================================
+                     🎓 TRAINING RESOURCES
+================================================================================
+
+Python Basics:     https://www.python.org/
+Streamlit Docs:    https://docs.streamlit.io/
+Pandas Guide:      https://pandas.pydata.org/docs/
+Excel Integration: Covered in COMPLETE_SETUP_GUIDE.md
+
+================================================================================
+                       🆘 EMERGENCY PROCEDURES
+================================================================================
+
+IF DASHBOARD CRASHES:
+   1. Note error message
+   2. Press Ctrl+C to close
+   3. Run STOP_DASHBOARD.bat
+   4. Wait 10 seconds
+   5. Run START_DASHBOARD.bat
+
+IF DATA LOOKS WRONG:
+   1. Enable Privacy Mode OFF
+   2. Check uploaded files are latest
+   3. Re-upload Excel files
+   4. Press F5 to refresh
+
+IF CAN'T LOGIN:
+   1. Check username: admin
+   2. Check password: sctu2024 (default)
+   3. Clear browser cache
+   4. Restart dashboard
+
+================================================================================
+                       📅 MAINTENANCE SCHEDULE
+================================================================================
+
+DAILY:
+   - Upload new data as received
+   - Check for errors
+
+WEEKLY:
+   - Export reports for records
+   - Backup data files
+   - Review performance metrics
+
+MONTHLY:
+   - Archive old reports
+   - Update targets if needed
+   - Review trends
+   - Clean old data files
+
+================================================================================
+                         🎯 PERFORMANCE TIPS
+================================================================================
+
+FASTER LOADING:
+   - Use smaller data files
+   - Close other browser tabs
+   - Restart dashboard periodically
+   - Clear browser cache
+
+BETTER ACCURACY:
+   - Upload all optional files
+   - Keep data files updated
+   - Verify column formats
+   - Check date formats
+
+SMOOTHER OPERATION:
+   - Keep VM resources available
+   - Update Python regularly
+   - Update dependencies
+   - Monitor disk space
+
+================================================================================
+                      📞 QUICK SUPPORT LOOKUP
+================================================================================
+
+Python Issues:        https://www.python.org/
+Streamlit Issues:     https://docs.streamlit.io/
+Data Format Issues:   Check COMPLETE_SETUP_GUIDE.md
+VM Issues:            Contact IT support
+Dashboard Issues:     SCTU Data Management Team
+
+================================================================================
+                         ✨ USEFUL LINKS
+================================================================================
+
+Python Download:   https://www.python.org/downloads/
+Streamlit Docs:    https://docs.streamlit.io/
+Plotly Charts:     https://plotly.com/python/
+Pandas Docs:       https://pandas.pydata.org/
+
+================================================================================
+                          📝 VERSION INFO
+================================================================================
+
+Dashboard Version:    2.0.2
+Package Version:      1.0
+Python Required:      3.8+
+Streamlit Required:   1.28.0+
+Last Updated:         October 2025
+Target Server:        SRV04750.soton.ac.uk
+
+================================================================================
+                          🎉 YOU'RE ALL SET!
+================================================================================
+
+For detailed information, see: COMPLETE_SETUP_GUIDE.md
+For recent changes, see: CHANGELOG.txt
+
+Need help? Start with this Quick Reference, then check the Complete Guide!
+
+================================================================================
+

@@ -1,0 +1,40 @@
+================================================================================
+PLACE YOUR EXCEL DATA FILES HERE
+================================================================================
+
+Please place the following Excel files in this folder:
+
+1. BNT113-01 Master Tracker v1 15-Apr-2025.xlsx
+   - Main trial tracking data
+   - Required for dashboard operation
+
+2. BNT113-01 Screening Logs1.xlsx (Optional)
+   - Screening and recruitment logs
+   - Enhances data accuracy
+
+3. CVLP BNT113 reporting.xlsx (Optional)
+   - Additional reporting metrics
+
+================================================================================
+CURRENT LOCATION
+================================================================================
+
+This folder is at:
+F:\projects\BNT113_Dashboard\data\
+
+If you copied your files from OneDrive, they should be at:
+F:\projects\OneDrive_2025-10-21\bnt122 progress report dashboard\BNT113 real data\
+
+You can either:
+- Copy the files to this data folder
+- Or upload them through the dashboard interface after starting it
+
+================================================================================
+ALTERNATIVE: UPLOAD THROUGH DASHBOARD
+================================================================================
+
+If you prefer, you can start the dashboard and upload files through the
+sidebar file uploaders. The dashboard will save uploaded files for future use.
+
+================================================================================
+

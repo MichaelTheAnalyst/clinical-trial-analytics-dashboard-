@@ -1,0 +1,82 @@
+# BNT113 Dashboard Demo - GitHub Ready
+
+# Demo data files (KEEP these - they're fictional/safe for GitHub)
+!data/BNT113-01 Master Tracker v1 15-Apr-2025.xlsx
+!data/BNT113-01 Screening Logs1.xlsx
+!data/CVLP BNT113 reporting.xlsx
+!data/PLACE_DATA_FILES_HERE.txt
+
+# SECURITY: Ignore any real data files that might be added accidentally
+**/real_data/
+**/production_data/
+**/*_real_*.xlsx
+**/*_production_*.xlsx
+**/*_confidential*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment and credentials
+.env
+.env.local
+config.ini
+secrets.yaml
+credentials.json
+
+# Personal/Local files
+*.local
+*_local.*
+notes.txt
+TODO_personal.txt
